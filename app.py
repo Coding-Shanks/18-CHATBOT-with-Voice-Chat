@@ -6,7 +6,7 @@ from multiprocessing import Process
 app = Flask(__name__)
 
 # Gemini API setup
-GEMINI_API_KEY = "AIzaSyAsL30YrpBkBYF6-EjHoGGfaglZaCjoHqE"
+GEMINI_API_KEY = "Your API Key here"
 API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent"
 
 system_prompt = """
