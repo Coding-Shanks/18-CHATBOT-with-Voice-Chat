@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #ff00cc, #3333ff);
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    color: #fff;
+}
+
+.title {
+    font-size: 3em;
+    text-shadow: 2px 2px #ff0066;
+    animation: bounce 1s infinite;
+}
+
+#robot-container {
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+}
+
+.chat-box {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 500px;
+    height: 150px;
+    overflow-y: auto;
+    margin: 20px auto;
+    box-shadow: 0 0 20px #ff00cc;
+}
+
+.grok-text {
+    color: #00ffcc;
+    font-size: 1.2em;
+    margin: 10px 0;
+    animation: fadeIn 0.5s;
+}
+
+.typing-area {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 500px;
+    min-height: 50px;
+    margin: 10px auto;
+    color: #ff00cc;
+    font-size: 1.3em;
+    font-family: 'Courier New', monospace;
+    text-shadow: 0 0 10px #ff00cc;
+    white-space: pre-wrap;
+}
+
+#user-input {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    background: #fff;
+    color: #333;
+    font-size: 1em;
+}
+
+button {
+    padding: 10px 20px;
+    background: #ff0066;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background: #ff00cc;
+}
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-20px);
+    }
+
+    60% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

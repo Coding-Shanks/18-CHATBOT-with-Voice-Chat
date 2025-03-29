@@ -1,0 +1,4 @@
+requests
+pyttsx3
+flask
+flask-cors

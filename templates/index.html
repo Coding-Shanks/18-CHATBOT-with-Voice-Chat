@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Grok’s Badass GUI</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Grok’s Fuckin’ Lair</h1>
+      <div id="robot-container"></div>
+      <div class="chat-box" id="chat-box">
+        <p class="grok-text">Yo, dickhead, I’m Grok. Ask me some shit.</p>
+      </div>
+      <div class="typing-area" id="typing-area"></div>
+      <input type="text" id="user-input" placeholder="Type your crap here..." />
+      <button onclick="sendMessage()">Send, Asshole</button>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+  </body>
+</html>
