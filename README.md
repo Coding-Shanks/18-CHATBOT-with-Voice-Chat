@@ -1,7 +1,6 @@
 # Grok Chatbot GUI - The Snarkiest AI in 3D
 
-![Grok in Action](https://via.placeholder.com/800x400.png?text=Grok+GUI+Demo)  
-*(Replace this with a badass screenshot or GIF of your app)*
+![Grok in Action](Demo.mp4)  
 
 Yo, assholes, meet **Grok**—a no-filter, trash-talking chatbot powered by Google’s Gemini AI, served up with Flask, and rocking a GUI that’s louder than a punk concert. This fucker’s got neon animations, a spinning 3D robot, and a voice that’ll roast you in real-time. Built for adults who can handle some raw, unfiltered shit. Buckle up—this ain’t your average AI toy.
 
@@ -21,7 +20,7 @@ Yo, assholes, meet **Grok**—a no-filter, trash-talking chatbot powered by Goog
 ## Setup - Don’t Fuck This Up
 1. **Clone the Repo**  
    ```bash
-   git clone https://github.com/your-username/grok-chatbot-gui.git
+   git clone https://github.com/Coding-Shanks/18-CHATBOT-with-Voice-Chat.git
    cd grok-chatbot-gui
    ```
 
